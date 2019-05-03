@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <title>SMAS Ample Admin</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- color CSS -->
+    <link href="css/tailwind.min.css" rel="stylesheet">
+
+    <link href="css/colors/smas.css" id="theme" rel="stylesheet">
+
+</head>
+
+<body class="fix-header">
+<!-- ============================================================== -->
+<!-- Preloader -->
+<!-- ============================================================== -->
+<div class="preloader">
+    <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+</div>
+<!-- ============================================================== -->
+<!-- Wrapper -->
+<!-- ============================================================== -->
+<div id="wrapper">
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <nav class="navbar navbar-default navbar-static-top m-b-0">
+        <div class="navbar-header">
+            <div class="top-left-part">
+                <!-- Logo -->
+                <a class="logo" href="index.html">
+                    <!-- Logo icon image, you can use font-icon also -->
+                    <b>
+                        <i class="icon-energy text-dark"></i>
+                    </b>
+                    <!-- Logo text image you can use text also -->
+                    <span class="hidden-xs font-light text-dark"  style="font-size:25px;">
+                               <span>O</span><span class="text-lowercase">pen</span><span class="font-medium">SMAS</span>
+                        </span>
+                </a>
+                <!--<a class="logo" href="index.html">
+                    &lt;!&ndash; Logo icon image, you can use font-icon also &ndash;&gt;<b>
+                    &lt;!&ndash;This is dark logo icon&ndash;&gt;<img src="../plugins/images/admin-logo.png" alt="home" class="dark-logo" />&lt;!&ndash;This is light logo icon&ndash;&gt;<img src="../plugins/images/admin-logo-dark.png" alt="home" class="light-logo" />
+                 </b>
+                    &lt;!&ndash; Logo text image you can use text also &ndash;&gt;<span class="hidden-xs">
+                    <p class="dark-logo">SMAS</p>
+                    &lt;!&ndash;This is dark logo text&ndash;&gt;<img src="../plugins/images/admin-text.png" alt="home" class="dark-logo" />&lt;!&ndash;This is light logo text&ndash;&gt;<img src="../plugins/images/admin-text-dark.png" alt="home" class="light-logo" />
+                 </span> </a>-->
+            </div>
+            <!-- /Logo -->
+            <!-- Search input and Toggle icon -->
+            <ul class="nav navbar-top-links navbar-left">
+                <li><a href="javascript:void(0)" class="open-close waves-effect waves-light"><i class="ti-menu"></i></a></li>
+                <!-- .Megamenu -->
+                <li class="mega-dropdown"> <a class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="#"><span class="hidden-xs">Main Menu </span> <i class="icon-grid"></i></a>
+                    <ul class="dropdown-menu mega-dropdown-menu animated bounceInDown">
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">User Profiles</li>
+                                <li><a href="form-basic.html">Administrators</a></li>
+                                <li><a href="form-basic.html">Teachers</a></li>
+                                <li><a href="form-basic.html">Students</a></li>
+                            </ul>
+                            <ul>
+                                <li class="dropdown-header">Settings</li>
+                                <li><a href="form-basic.html">Access Control</a></li>
+                                <li><a href="form-basic.html">Modules</a></li>
+                                <li><a href="form-basic.html">Permissions</a></li>
+                            </ul>
+                            <ul>
+                                <li class="dropdown-header">User Profiles</li>
+                                <li><a href="form-basic.html">Administrators</a></li>
+                                <li><a href="form-basic.html">Teachers</a></li>
+                                <li><a href="form-basic.html">Students</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Advance Forms</li>
+                                <li><a href="form-dropzone.html">File Dropzone</a></li>
+                                <li><a href="form-pickers.html">Form-pickers</a></li>
+                                <li><a href="form-wizard.html">Form-wizards</a></li>
+                                <li><a href="form-typehead.html">Typehead</a></li>
+                                <li><a href="form-xeditable.html">X-editable</a></li>
+                                <li><a href="form-summernote.html">Summernote</a></li>
+                                <li><a href="form-bootstrap-wysihtml5.html">Bootstrap wysihtml5</a></li>
+                                <li><a href="form-tinymce-wysihtml5.html">Tinymce wysihtml5</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Table Example</li>
+                                <li><a href="basic-table.html">Basic Tables</a></li>
+                                <li><a href="table-layouts.html">Table Layouts</a></li>
+                                <li><a href="data-table.html">Data Table</a></li>
+                                <li><a href="bootstrap-tables.html">Bootstrap Tables</a></li>
+                                <li><a href="responsive-tables.html">Responsive Tables</a></li>
+                                <li><a href="editable-tables.html">Editable Tables</a></li>
+                                <li><a href="foo-tables.html">FooTables</a></li>
+                                <li><a href="jsgrid.html">JsGrid Tables</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Charts</li>
+                                <li> <a href="flot.html">Flot Charts</a> </li>
+                                <li><a href="morris-chart.html">Morris Chart</a></li>
+                                <li><a href="chart-js.html">Chart-js</a></li>
+                                <li><a href="peity-chart.html">Peity Charts</a></li>
+                                <li><a href="knob-chart.html">Knob Charts</a></li>
+                                <li><a href="sparkline-chart.html">Sparkline charts</a></li>
+                                <li><a href="extra-charts.html">Extra Charts</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                <li><h3 class="text-white hidden-xs m-t-15 font-normal">DEMO SECONDARY SCHOOL</h3> <h3 class="text-white visible-xs m-t-15 font-normal">D.S.S</h3></li>
+                <!-- /.Megamenu -->
+            </ul>
+            <ul class="nav navbar-top-links navbar-right pull-right">
+                <!--<li>
+                    <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                        <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
+                </li>-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="../plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Khama</b><span class="caret"></span> </a>
+                    <ul class="dropdown-menu dropdown-user animated flipInY">
+                        <li>
+                            <div class="dw-user-box">
+                                <div class="u-img"><img src="../plugins/images/users/varun.jpg" alt="user" /></div>
+                                <div class="u-text"><h4>Violet K. Gumbwa</h4><p class="text-muted">varun@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-info btn-sm">View Profile</a></div>
+                            </div>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><i class="ti-user"></i> My Information</a></li>
+                        <li><a href="#"><i class="ti-wallet"></i> Finance Account</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+
+                <!-- /.dropdown -->
+            </ul>
+        </div>
+        <!-- /.navbar-header -->
+        <!-- /.navbar-top-links -->
+        <!-- /.navbar-static-side -->
+    </nav>
+    <!-- End Top Navigation -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav slimscrollsidebar">
+            <div class="sidebar-head">
+                <h3><span class="fa-fw open-close"><i class="ti-close ti-menu"></i></span> <span class="hide-menu">Navigation</span></h3> </div>
+            <div class="user-profile">
+                <div class="dropdown user-pro-body">
+                    <div><img src="../plugins/images/users/varun.jpg" alt="user-img" class="img-circle"></div>
+                    <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Violet Khama Gumbwa</a>
+                </div>
+            </div>
+            <ul class="nav" id="side-menu">
+                <li class="active"><a href="login.html" class="waves-effect"><i class="mdi mdi-view-dashboard fa-fw"></i> <span class="hide-menu">Dashboard</span></a></li>
+                <li><a href="login.html" class="waves-effect"><i class="mdi mdi-book-open-page-variant fa-fw"></i> <span class="hide-menu">Courses</span></a></li>
+                <li><a href="login.html" class="waves-effect"><i class="mdi mdi-chart-pie fa-fw"></i> <span class="hide-menu">Performance</span></a></li>
+                <li><a href="login.html" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">Finance</span></a></li>
+                <li><a href="login.html" class="waves-effect"><i class="mdi mdi-help-circle fa-fw"></i> <span class="hide-menu">Help</span></a></li>
+                <li class="devider"></li>
+                <li><a href="documentation.html" class="waves-effect"><i class="fa fa-circle-o text-danger"></i> <span class="hide-menu">User Manuals</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page Content -->
+    <!-- ============================================================== -->
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <div class="row bg-title">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                    <h4 class="page-title"> Dashboard </h4> </div>
+                <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                    <button class="waves-light btn btn-warning btn-outline pull-right m-l-20">Usage Tip <i class="fa icon-arrow-down"></i></button>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Dashboard</a></li>
+                    </ol>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="white-box analytics-info">
+                        <h3 class="box-title">Noticeboard</h3>
+                        <ul class="list-inline two-part">
+                            <li>
+                                <i class="fa fa-bell-o text-inverse" style="font-size:30px"></i>
+                            </li>
+                            <li class="text-right" ><span class="counter text-dark" style="font-size:30px">1</span> new</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="white-box">
+                        <h3 class="box-title">Courses</h3>
+                        <ul class="list-inline m-t-30 p-t-10 two-part">
+                            <li><i class="mdi mdi-book-open-page-variant text-inverse"></i></li>
+                            <li class="text-right"><span class="">5</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="white-box">
+                        <h3 class="box-title">Finance</h3>
+                        <div class="text-right"> <span class="text-muted">Quick Balance</span>
+                            <h2 class="text-success">- MWK 9,000</h2> </div> <span class="text-inverse">100%</span>
+                        <div class="progress m-b-0">
+                            <div class="progress-bar progress-bar-inverse" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;"> <span class="sr-only">230% Complete</span> </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="white-box bg-success">
+                        <div class="row text-white">
+                            <div class="col-sm-8">
+                                <h3 class="m-b-0 font-normal text-white">Registered</h3>
+                                <h5 class="text-white m-t-0"><i class="fa fa-clock-o"></i> 5 days ago</h5>
+                            </div>
+                            <div class="col-sm-4">
+                                <i class="fa fa-registered fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<div class="white-box bg-inverse">
+                        <div class="row text-white">
+                            <div class="col-sm-8">
+                                <h3 class="m-b-0 font-normal text-white">Unregistered</h3>
+                                <h5 class="text-white m-t-0"><i class="fa fa-clock-o"></i> 5 Days to go</h5></div>
+                            <div class="col-sm-4">
+                                <i class="fa fa-ban fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="white-box">
+                        <h3 class="box-title">Good Morning <span class="font-bold">Khama</span></h3>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="wi wi-day-sunny fa-3x text-warning"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h4 class="">
+                                    How are You doing today?
+                                </h4>
+                                <p>
+                                    Don't forget to check the Announcements and Noticeboard before you logout ey.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="white-box">
+                        <h3 class="box-title">School Session</h3>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <i class="fa fa-hourglass-1 fa-2x text-inverse"></i>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <h5>
+                                            Academic year
+                                        </h5>
+                                        <h3>
+                                            2018/2019
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        <h5>
+                                            Academic Term
+                                        </h5>
+                                        <h3>
+                                            1
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="white-box">
+                        <h3 class="box-title">Announcements</h3>
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <i class="fa fa-bullhorn fa-3x text-inverse"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <ul class="list-group">
+                                    <li class="list-group-item b-none">
+                                        <span class="text-uppercase font-medium">Account Logout</span>
+                                        <span class="pull-right"><i class="fa fa-bookmark-o fa-2x text-warning"></i> </span>
+                                        <p>Hey Students, Please make sure you logout when you are done using the System.</p>
+                                        <span class="small"><i class="fa fa-clock-o"></i> Pinned 3 days ago</span>
+                                    </li>
+                                    <li class="list-group-item b-none">
+                                        <span class="text-uppercase font-normal">Students Union Elections</span>
+                                        <p>You can now view the Students Union Candidates running for office in 2018/2019 Academic Year. Go on the main module to access the Elections Module.</p>
+                                        <span class="small"><i class="fa fa-clock-o"></i> Pinned 3 days ago</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="white-box">
+                        <h3 class="box-title">Event Timeline</h3>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <i class="fa fa-calendar fa-2x text-inverse"></i>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="white-box">
+                                    <ul class="timeline">
+                                        <li>
+                                            <div class="timeline-badge bg-inverse"><i class="fa fa-spinner"></i></div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h5 class="timeline-title">End of Semester Examinations Begins</h5>
+                                                    <p><span class="font-medium"> Mon, 19th December,2018</span> </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-badge bg-inverse"><i class="fa fa-spinner"></i> </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h5 class="timeline-title">Grace Week Starts</h5>
+                                                    <p><span class="font-medium"> Mon, 12th December,2018</span> </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="timeline-badge success"><i class="fa fa-check"></i> </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h5 class="timeline-title">MAT111 Test 1</h5>
+                                                    <p><span class="font-medium"> Thu, 5 November,2018</span> </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="white-box">
+                        <h3 class="box-title">Performance Peak</h3>
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <i class="fa fa-pie-chart fa-3x text-inverse"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <div>
+                                    <h4>
+                                        Overall Mean
+                                    </h4>
+                                    <div>
+                                        <h4>
+                                            <span class="font-medium">10 Points</span> <span class="pull-right">Mean 80% <i class="fa ti-arrow-up text-success"></i></span>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4>
+                                        Term 1
+                                    </h4>
+                                    <div>
+                                        <h4>
+                                            <span class="font-medium">9 Points</span> <span class="pull-right">Mean 92% <i class="fa ti-arrow-up text-success"></i></span>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4>
+                                        Term 2
+                                    </h4>
+                                    <div>
+                                        <h4>
+                                            <span class="font-medium">11 Points</span> <span class="pull-right">Mean 88% <i class="fa ti-arrow-down text-warning"></i></span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="white-box">
+                        <h3 class="box-title">Downloads</h3>
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <i class="mdi mdi-download fa-3x text-inverse"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <ul class="list-group">
+                                    <li class="list-group-item b-none text-warning font-normal">
+                                        <span>Assessment Rules</span><span><i class="fa fa-map-pin pull-right"></i></span>
+                                    </li>
+                                    <li class="list-group-item b-none">
+                                        <span>Registration Forms</span><span><i></i></span>
+                                    </li>
+                                    <li class="list-group-item b-none">
+                                        <span>Elections Module Manual</span><span><i></i></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+        <footer class="footer text-center"> <i class="fa fa-copyright"></i> Inscriptions 2018 </footer>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page Content -->
+    <!-- ============================================================== -->
+</div>
+<!-- /#wrapper -->
+<!-- jQuery -->
+<script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Menu Plugin JavaScript -->
+<script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+<!--slimscroll JavaScript -->
+<script src="js/jquery.slimscroll.js"></script>
+
+<script src="../plugins/bower_components/moment/moment.js"></script>
+
+<!--Wave Effects -->
+<script src="js/waves.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/custom.min.js"></script>
+
+</body>
+
+</html>
