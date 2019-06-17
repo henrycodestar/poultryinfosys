@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../plugins/images/favicon.png">
+    <title>PIS Incubator Batches - Poultry Information System</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="../../../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="../../css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+
+    <link href="../../css/tailwind.min.css" rel="stylesheet">
+
+    <!-- color CSS -->
+    <link href="../../css/colors/smas.css" id="theme" rel="stylesheet">
+</head>
+
+<body class="fix-header">
+<!-- ============================================================== -->
+<!-- Preloader -->
+<!-- ============================================================== -->
+<div class="preloader">
+    <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+</div>
+<!-- ============================================================== -->
+<!-- Wrapper -->
+<!-- ============================================================== -->
+<div id="wrapper">
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <nav class="navbar navbar-default navbar-static-top m-b-0">
+        <div class="navbar-header">
+            <div class="top-left-part">
+                <!-- Logo -->
+                <a class="logo" href="../../index.html">
+                    <!-- Logo icon image, you can use font-icon also -->
+                    <b>
+                        <i class="icon-energy text-dark"></i>
+                    </b>
+                    <!-- Logo text image you can use text also -->
+                    <span class="hidden-xs font-light text-dark"  style="font-size:35px;">
+                               <span class="font-medium">P.I.S</span>
+                        </span>
+                </a>
+                <!--<a class="logo" href="index.html">
+                    &lt;!&ndash; Logo icon image, you can use font-icon also &ndash;&gt;<b>
+                    &lt;!&ndash;This is dark logo icon&ndash;&gt;<img src="../plugins/images/admin-logo.png" alt="home" class="dark-logo" />&lt;!&ndash;This is light logo icon&ndash;&gt;<img src="../plugins/images/admin-logo-dark.png" alt="home" class="light-logo" />
+                 </b>
+                    &lt;!&ndash; Logo text image you can use text also &ndash;&gt;<span class="hidden-xs">
+                    <p class="dark-logo">SMAS</p>
+                    &lt;!&ndash;This is dark logo text&ndash;&gt;<img src="../plugins/images/admin-text.png" alt="home" class="dark-logo" />&lt;!&ndash;This is light logo text&ndash;&gt;<img src="../plugins/images/admin-text-dark.png" alt="home" class="light-logo" />
+                 </span> </a>-->
+            </div>
+            <!-- /Logo -->
+            <!-- Search input and Toggle icon -->
+            <ul class="nav navbar-top-links navbar-left">
+                <li><a href="javascript:void(0)" class="open-close waves-effect waves-light"><i class="ti-menu"></i></a></li>
+                <!-- .Megamenu -->
+                
+                <li><h3 class="text-white hidden-xs m-t-15 font-normal">POULTRY INFORMATION SYSTEM </h3> <h3 class="text-white visible-xs m-t-15 font-normal">P.I.S</h3></li>
+                <!-- /.Megamenu -->
+            </ul>
+            <ul class="nav navbar-top-links navbar-right pull-right">
+                <!--<li>
+                    <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                        <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
+                </li>-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="../../../plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Samuel</b><span class="caret"></span> </a>
+                    <ul class="dropdown-menu dropdown-user animated flipInY">
+                        <li>
+                            <div class="dw-user-box">
+                                <div class="u-img"><img src="../../../plugins/images/users/varun.jpg" alt="user" /></div>
+                                <div class="u-text"><h4>Samuel Yute</h4><p class="text-muted">samuel.yute@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-info btn-sm">View Profile</a></div>
+                            </div>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><i class="ti-user"></i> My Information</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+
+                <!-- /.dropdown -->
+            </ul>
+        </div>
+        <!-- /.navbar-header -->
+        <!-- /.navbar-top-links -->
+        <!-- /.navbar-static-side -->
+    </nav>
+    <!-- End Top Navigation -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav slimscrollsidebar">
+            <div class="sidebar-head">
+                <h3><span class="fa-fw open-close"><i class="ti-close ti-menu"></i></span> <span class="hide-menu">Navigation</span></h3> </div>
+            <!--<div class="user-profile">
+                <div class="dropdown user-pro-body">
+                    <div><img src="../plugins/images/users/varun.jpg" alt="user-img" class="img-circle"></div>
+                    <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Samuel Yute</a>
+                </div>
+            </div>-->
+            <ul class="nav" id="side-menu">
+                <li class="active"><a href="login.html" class="waves-effect"><i class="mdi mdi-view-dashboard fa-fw"></i> <span class="hide-menu">Dashboard</span></a></li>
+                <li class="active"><a href="../../index.html" class="waves-effect"><i class="mdi mdi-view-dashboard fa-fw"></i> <span class="hide-menu">Dashboard</span></a></li>
+                <li><a href="../incubator-batches/index.html" class="waves-effect"><i class="mdi mdi-book-open-page-variant fa-fw"></i> <span class="hide-menu">Incubator Batches</span></a></li>
+                <li><a href="../bird-cohorts/index.html" class="waves-effect"><i class="mdi mdi-chart-pie fa-fw"></i> <span class="hide-menu">Bird Cohorts</span></a></li>
+                <li><a href="#" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">Product Sales</span></a></li>
+                <li><a href="#" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">House Conditions</span></a></li>
+                <li><a href="#" class="waves-effect"><i class="mdi mdi-account-multiple fa-fw"></i> <span class="hide-menu">User Management</span></a></li>
+                <li><a href="#" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">App Settings</span></a></li>
+                <li><a href="#" class="waves-effect"><i class="mdi mdi-help-circle fa-fw"></i> <span class="hide-menu">Help</span></a></li>
+                <li class="devider"></li>
+                <li><a href="documentation.html" class="waves-effect"><i class="fa fa-circle-o text-danger"></i> <span class="hide-menu">User Manuals</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page Content -->
+    <!-- ============================================================== -->
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <div class="row bg-title">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                    <h4 class="page-title"> Hatchings</h4>
+                </div>
+                <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                    <button class="waves-light btn btn-info btn-circle pull-right m-l-20"><i class="fa fa-info text-white"></i></button>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Incubator Batches</a></li>
+                        <li><a href="#">12ADB</a></li>
+                    </ol>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+
+            <div class="container-fluid">
+                <div class="my-0">
+                    <div class="row">
+                        <div class="container-fluid flex items-center p-0">
+                            <div class="col-md-11">
+                                <p class="inline-block p-8 bg-white border-l-4 border-grey-dark">
+                                    View the Hatchings and Manage it below.
+                                </p>
+                            </div>
+                            <div class="col-md-1">
+                                <i class="mdi mdi-book-multiple fa-4x text-blue-darker"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mt-8 p-3">
+                    <div class="row">
+                        <div class="container-fluid flex items-center pb-0">
+                            <div class="col-md-3 h5 font-medium uppercase">
+                                <i class="fa fa-mouse-pointer"></i> Action Bar
+                            </div>
+                            <div class="col-md-9 flex justify-end items-center">
+                                <button class="btn btn-warning m-1"><span class="btn-label"><i class="mdi mdi-pencil"></i></span> Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <div class="row">
+                        <div class="container-fluid p-0">
+                            <div class="col-md-7">
+                                <div class="white-box">
+                                    <div class="box-title">
+                                        Basic Info
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 text-center">
+                                            <i class="fa fa-info-circle fa-3x"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <ul class="list-group">
+                                                <li class="list-group-item b-none py-1">
+                                                    <span class="font-medium">Number of Chicks</span>
+                                                    <p>12</p>
+                                                </li>
+                                                <li class="list-group-item b-none py-1">
+                                                    <span class="font-medium">Number of Healthy Chicks</span>
+                                                    <p>8</p>
+                                                </li>
+                                                <li class="list-group-item b-none py-1">
+                                                    <span class="font-medium">Number of Deformed Chicks</span>
+                                                    <p>2</p>
+                                                </li>
+                                                <li class="list-group-item b-none py-1">
+                                                    <span class="font-medium">Number of Dead Chicks</span>
+                                                    <p>2</p>
+                                                </li>
+                                                <li class="list-group-item b-none py-1">
+                                                    <span class="font-medium">Created</span>
+                                                    <p>2018-05-02</p>
+                                                </li>
+                                                <li class="list-group-item b-none py-1">
+                                                    <span class="font-medium">Updated</span>
+                                                    <p>2018-05-02</p>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="white-box">
+                                    <div class="box-title">
+                                        Statistics
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 text-center">
+                                            <i class="mdi mdi-chart-line fa-flip-horizontal fa-3x"></i>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <ul class="list-group">
+                                                <li class="list-group-item b-none py-1">
+                                                    <span class="font-medium">Hatch Rate</span>
+                                                    <p class="h1 font-light text-red">20%</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+        <footer class="footer text-center"> <i class="fa fa-copyright"></i> Inscriptions 2018 </footer>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page Content -->
+    <!-- ============================================================== -->
+</div>
+<!-- /#wrapper -->
+<!-- jQuery -->
+<script src="../../../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../../bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Menu Plugin JavaScript -->
+<script src="../../../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+<!--slimscroll JavaScript -->
+<script src="../../js/jquery.slimscroll.js"></script>
+<!--Wave Effects -->
+<script src="../../js/waves.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="../../js/custom.min.js"></script>
+<!--Style Switcher -->
+<script src="../../../plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+</html>
