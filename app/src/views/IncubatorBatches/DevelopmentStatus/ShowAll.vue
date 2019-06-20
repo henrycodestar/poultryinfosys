@@ -4,35 +4,35 @@
             <div class="box-title">
                 <i class="fa fa-long-arrow-right"></i> All Statuses ({{this.programEvents.length}})
             </div>
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th>#</th>
-                        <th># Damaged Eggs</th>
-                        <th># Undeveloped Eggs</th>
-                        <th># Developed(FTL) Eggs</th>
-                        <th>Created</th>
-                        <th>Actions</th>
-                    </tr>
-                    </thead>
+            <!--<div class="table-responsive">-->
+                <!--<table class="table">-->
+                    <!--<thead>-->
+                    <!--<tr>-->
+                        <!--<th>#</th>-->
+                        <!--<th># Damaged Eggs</th>-->
+                        <!--<th># Undeveloped Eggs</th>-->
+                        <!--<th># Developed(FTL) Eggs</th>-->
+                        <!--<th>Created</th>-->
+                        <!--<th>Actions</th>-->
+                    <!--</tr>-->
+                    <!--</thead>-->
 
-                    <tbody>
-                    <tr v-for="(programEvent,index) in programEvents" v-bind:key="index">
-                        <td>{{index+1}}</td>
-                        <td>{{getValue(programEvent,'MPAfeD6o3ln')}}</td>
-                        <td>{{getValue(programEvent,'BdpUL8f1Yow')}}</td>
-                        <td>{{getValue(programEvent,'RTRsM9EDDgI')}}</td>
-                        <!--<td>Active</td>-->
-                        <td>{{programEvent.created}}</td>
-                        <td>
-                            <router-link class="btn btn-info btn-warning" :to="`/incubator-batches/${this.incubatorBatchID}/development-statuses/${programEvent.event}/edit`"><span class="btn-label"><i class="fa fa-info-circle"></i></span>Edit</router-link>
-                            <a role="button" v-on:click="deleteEvent(programEvent.event)" class="btn btn-info btn-sm" ><span class="btn-label"><i class="fa fa-info-circle"></i></span>Delete</a>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
+                    <!--<tbody>-->
+                    <!--<tr v-for="(programEvent,index) in programEvents" v-bind:key="index">-->
+                        <!--<td>{{index+1}}</td>-->
+                        <!--<td>{{getValue(programEvent,'MPAfeD6o3ln')}}</td>-->
+                        <!--<td>{{getValue(programEvent,'BdpUL8f1Yow')}}</td>-->
+                        <!--<td>{{getValue(programEvent,'RTRsM9EDDgI')}}</td>-->
+                        <!--&lt;!&ndash;<td>Active</td>&ndash;&gt;-->
+                        <!--<td>{{programEvent.created}}</td>-->
+                        <!--<td>-->
+                            <!--<router-link class="btn btn-info btn-warning" :to="`/incubator-batches/${this.incubatorBatchID}/development-statuses/${programEvent.event}/edit`"><span class="btn-label"><i class="fa fa-info-circle"></i></span>Edit</router-link>-->
+                            <!--<a role="button" v-on:click="deleteEvent(programEvent.event)" class="btn btn-info btn-sm" ><span class="btn-label"><i class="fa fa-info-circle"></i></span>Delete</a>-->
+                        <!--</td>-->
+                    <!--</tr>-->
+                    <!--</tbody>-->
+                <!--</table>-->
+            <!--</div>-->
         </div>
     </div>
 </template>
@@ -49,7 +49,6 @@
         props: ['incubatorBatchID'],
         created() {
             this.getProgramEvents();
-            console.log(this.incubatorBatchID)
         },
         methods: {
             getValue : function (event, dataElementID) {
@@ -63,7 +62,7 @@
 
                 authResource().get(URL)
                     .then((response)=>{
-                        this.programEvents.push(..._.filter(response.data.events, (item) => {return item.dataValues.length > 0}))
+                        this.programEvents.push(...response.data.events)
                     }).catch((error) => {
                     console.log(error)
                 })
@@ -78,17 +77,10 @@
                     console.log(error)
                 })
             }
-
-
         },
         data: () => {
             return {
                 programEvents : []
-            }
-        },
-        computed : {
-            computedIncubatorBatchID : function () {
-                return this.incubatorBatchID
             }
         }
     }

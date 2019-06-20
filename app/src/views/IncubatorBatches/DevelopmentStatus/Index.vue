@@ -27,7 +27,7 @@
                         <ol class="breadcrumb">
                             <li><router-link to="/">Dashboard</router-link></li>
                             <li><router-link to="/incubator-batches">Incubator Batches</router-link></li>
-                            <li><router-link :to="'/incubator-batches/'+this.incubatorBatchID">{{ this.incubatorBatchID }}</router-link></li>
+                            <li><router-link :to="'/incubator-batches/'+stateIncubatorBatch">{{ this.stateIncubatorBatch }}</router-link></li>
                             <li><a>Development Status</a></li>
                         </ol>
                     </div>
@@ -57,13 +57,47 @@
                                     <i class="fa fa-mouse-pointer"></i> Action Bar
                                 </div>
                                 <div class="col-md-9 flex justify-end items-center">
-                                    <router-link class="btn btn-success m-1" :to="'/incubator-batches/'+this.incubatorBatchID+'/development-statuses/add'"><span class="btn-label"><i class="mdi mdi-plus"></i></span> Add New</router-link>
+                                    <router-link class="btn btn-success m-1" :to="'/incubator-batches/'+stateIncubatorBatch+'/development-statuses/add'"><span class="btn-label"><i class="mdi mdi-plus"></i></span> Add New</router-link>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <IncubatorBatchesShowAllDevelopmentStatus :incubatorBatchID="this.incubatorBatchID"></IncubatorBatchesShowAllDevelopmentStatus>
+                    <div class="white-box">
+                        <div class="box-title">
+                            <i class="fa fa-long-arrow-right"></i> All Statuses ({{this.programEvents.length}})
+                        </div>
+                        <div class="table-responsive">
+                        <table class="table">
+                        <thead>
+                        <tr>
+                        <th>#</th>
+                        <th># Damaged Eggs</th>
+                        <th># Undeveloped Eggs</th>
+                        <th># Developed(FTL) Eggs</th>
+                        <th>Created</th>
+                        <th>Actions</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr v-for="(programEvent,index) in programEvents" v-bind:key="index">
+                        <td>{{index+1}}</td>
+                        <td>{{getValue(programEvent,'MPAfeD6o3ln')}}</td>
+                        <td>{{getValue(programEvent,'BdpUL8f1Yow')}}</td>
+                        <td>{{getValue(programEvent,'RTRsM9EDDgI')}}</td>
+                        <!--<td>Active</td>-->
+                        <td>{{programEvent.created}}</td>
+                        <td>
+                        <router-link class="btn btn-info btn-warning" :to="'/incubator-batches/'+stateIncubatorBatch+'/development-statuses/'+programEvent.event+'/edit'"><span class="btn-label"><i class="fa fa-info-circle"></i></span>Edit</router-link>
+                        <a role="button" v-on:click="deleteEvent(programEvent.event)" class="btn btn-info btn-sm" ><span class="btn-label"><i class="fa fa-info-circle"></i></span>Delete</a>
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <!-- /.container-fluid -->
@@ -77,18 +111,50 @@
 </template>
 
 <script>
+    import authResource from './../../../authResource'
     import NavBar from "../../../components/Essentials/NavBar";
     import SideBar from "../../../components/Essentials/SideBar";
-    import IncubatorBatchesShowAllDevelopmentStatus from "./ShowAll";
     export default {
         name: 'IncubatorBatchesShowAllDevelopmentStatus',
-        components: {IncubatorBatchesShowAllDevelopmentStatus, SideBar, NavBar},
+        components: {SideBar, NavBar},
         props: ['incubatorBatchID'],
+        created() {
+            // this.stateIncubatorBatch = 'HOVwD1JNNF4';
+            this.stateIncubatorBatch = this.incubatorBatchID;
+            this.getProgramEvents();
+        },
         methods: {
+            getValue : function (event, dataElementID) {
+                if (event.dataValues.length > 0)
+                    return _.find(event.dataValues, ['dataElement', dataElementID]).value;
+                else
+                    return null
+            },
+            getProgramEvents : function () {
+                let URL = this.APIHosts.dhis+'/events.json?program='+this.programs.incubatorBatches+'&programStage=qgoGswZXWAS&orgUnit='+this.organisationUnit;
+
+                authResource().get(URL)
+                    .then((response)=>{
+                        this.programEvents.push(...response.data.events)
+                    }).catch((error) => {
+                    console.log(error)
+                })
+            },
+            deleteEvent : function (eventID) {
+                let URL = this.APIHosts.dhis+'/events/'+eventID;
+
+                authResource().delete(URL)
+                    .then((response)=>{
+                        this.$router.push('/incubator-batches')
+                    }).catch((error) => {
+                    console.log(error)
+                })
+            }
         },
         data: () => {
             return {
-
+                programEvents : [],
+                stateIncubatorBatch : null
             }
         }
     }

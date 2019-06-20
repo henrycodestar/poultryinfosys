@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e54616-d0e2-4946-b006-ddf27ca1fbdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/incubator-batches/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/incubator-batches/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/incubator-batches/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/incubator-batches/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/incubator-batches/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/incubator-batches/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/modules/incubator-batches/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/modules/incubator-batches/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/HTS/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/InitiDataV5.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/MasterCardV5.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/RegistrationDataV5.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/VisitDataV5.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/InitiDataV6.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/MasterCardV6.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/RegistrationDataV6.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/VisitDataV6.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/InitiDataV7.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/InitiDataV7Paeds.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/MasterCardV7.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/MasterCardV7Paeds.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/RegistrationDataV7.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/RegistrationDataV7Paeds.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/VisitDataV7.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/VisitDataV7Paeds.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardsHome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Patients/AddPatient.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Patients/ShowPatient.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Patients/ShowPatientHome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Steps/Steps.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Steps/StepsTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/globals/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/helpers/handleErrors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/Index.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,19 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Show.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2775">
-              <caret line="188" column="14" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+            <state relative-caret-position="1845">
+              <caret line="123" column="81" selection-start-line="123" selection-start-column="81" selection-end-line="123" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -44,26 +59,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Add.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="89" column="42" lean-forward="true" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+            <state relative-caret-position="1695">
+              <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Edit.vue">
+        <entry file="file://$PROJECT_DIR$/app/src/views/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+            <state relative-caret-position="18">
+              <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Hatching/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="125" column="12" lean-forward="true" selection-start-line="125" selection-start-column="12" selection-end-line="130" selection-end-column="14" />
+            <state relative-caret-position="1860">
+              <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -92,10 +104,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+            <state relative-caret-position="1395">
+              <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/ShowAll.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="72" column="18" selection-start-line="65" selection-start-column="16" selection-end-line="72" selection-end-column="18" />
+              <folding>
+                <element signature="e#2046#2093#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +135,7 @@
       <find>images</find>
       <find>varun</find>
       <find>src</find>
+      <find>incubatorBatchID</find>
     </findStrings>
     <replaceStrings>
       <replace>bird cohorts</replace>
@@ -147,7 +172,6 @@
         <option value="$PROJECT_DIR$/source/modules/incubator-batches/index.html" />
         <option value="$PROJECT_DIR$/source/modules/bird-cohorts/index.html" />
         <option value="$PROJECT_DIR$/app/package.json" />
-        <option value="$PROJECT_DIR$/app/src/views/Index.vue" />
         <option value="$PROJECT_DIR$/app/src/views/LoginPage.vue" />
         <option value="$PROJECT_DIR$/app/src/components/LoginForm.vue" />
         <option value="$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue" />
@@ -171,6 +195,7 @@
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Edit.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/Index.vue" />
       </list>
     </option>
   </component>
@@ -204,27 +229,7 @@
               <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="globals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
@@ -232,32 +237,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="IncubatorBatches" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="IncubatorBatches" type="462c0819:PsiDirectoryNode" />
-              <item name="DevelopmentStatus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="IncubatorBatches" type="462c0819:PsiDirectoryNode" />
-              <item name="Hatching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
@@ -269,13 +248,6 @@
               <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="incubator-batches" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,12 +313,14 @@
       <workItem from="1560642458884" duration="9337000" />
       <workItem from="1560693716871" duration="4302000" />
       <workItem from="1560698155721" duration="44179000" />
-      <workItem from="1560761858501" duration="844000" />
+      <workItem from="1560761858501" duration="8045000" />
+      <workItem from="1560861232894" duration="647000" />
+      <workItem from="1561054071859" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64751000" />
+    <option name="totallyTimeSpent" value="72599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -363,7 +337,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2850163" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2801303" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -374,9 +348,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/modules/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/bird-cohorts/edit.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -457,15 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/globals/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/globals/index.js" />
     <entry file="file://$PROJECT_DIR$/source/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -497,16 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="e#1229#1282#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,16 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/ShowAll.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <element signature="e#2046#2093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/authResource.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -595,13 +538,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading/Add.vue" />
     <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading/ShowAll.vue" />
-    <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/show-development-status.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-932">
-          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/show-setter-loading.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -655,24 +591,62 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Show.vue" />
+    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="89" column="42" lean-forward="true" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="184" column="13" lean-forward="true" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/show-development-status.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1335">
+          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="600">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="54" />
+          <folding>
+            <element signature="e#1821#1871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/administrators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4110">
+          <caret line="274" column="57" selection-start-line="274" selection-start-column="57" selection-end-line="274" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Show.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="188" column="14" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+        <state relative-caret-position="1845">
+          <caret line="123" column="81" selection-start-line="123" selection-start-column="81" selection-end-line="123" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Hatching/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="125" column="12" lean-forward="true" selection-start-line="125" selection-start-column="12" selection-end-line="130" selection-end-column="14" />
+        <state relative-caret-position="1860">
+          <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -688,32 +662,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+        <state relative-caret-position="1395">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue">
+    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/ShowAll.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        <state relative-caret-position="1035">
+          <caret line="72" column="18" selection-start-line="65" selection-start-column="16" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#2046#2093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Add.vue">
+    <entry file="file://$PROJECT_DIR$/app/src/views/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="89" column="42" lean-forward="true" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Edit.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+        <state relative-caret-position="18">
+          <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -122,12 +122,9 @@ router.beforeEach((to, from, next)=>{
     if (to.meta.requiresAuth)
     {
         if (sessionStorage.getItem('user'))
-        {
             next();
-        }else
-        {
+        else
             next({ path : '/login'})
-        }
     }else
     {
         next();
