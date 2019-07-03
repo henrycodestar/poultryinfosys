@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e54616-d0e2-4946-b006-ddf27ca1fbdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/router.js" afterDir="false" />
-    </list>
+    <list default="true" id="34e54616-d0e2-4946-b006-ddf27ca1fbdb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -371,12 +367,12 @@
       <workItem from="1561054071859" duration="1338000" />
       <workItem from="1561292709646" duration="1557000" />
       <workItem from="1561689992560" duration="1312000" />
-      <workItem from="1562061211339" duration="25296000" />
+      <workItem from="1562061211339" duration="25639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102102000" />
+    <option name="totallyTimeSpent" value="102445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -393,7 +389,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36789298" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29431438" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
