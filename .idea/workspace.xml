@@ -3,35 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="34e54616-d0e2-4946-b006-ddf27ca1fbdb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/HTS/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/InitiDataV5.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/MasterCardV5.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/RegistrationDataV5.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV5/VisitDataV5.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/InitiDataV6.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/MasterCardV6.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/RegistrationDataV6.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV6/VisitDataV6.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/InitiDataV7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/InitiDataV7Paeds.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/MasterCardV7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/MasterCardV7Paeds.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/RegistrationDataV7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/RegistrationDataV7Paeds.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/VisitDataV7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardV7/VisitDataV7Paeds.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/MasterCards/MasterCardsHome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Patients/AddPatient.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Patients/ShowPatient.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Patients/ShowPatientHome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Steps/Steps.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Steps/StepsTable.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/globals/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/helpers/handleErrors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/NavBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/Reports.vue" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,64 +25,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Show.vue">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="123" column="81" selection-start-line="123" selection-start-column="81" selection-end-line="123" selection-end-column="81" />
+            <state relative-caret-position="-934">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Add.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+            <state relative-caret-position="120">
+              <caret line="127" column="18" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Edit.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="139" column="20" lean-forward="true" selection-start-line="139" selection-start-column="20" selection-end-line="141" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Show.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+              <folding>
+                <element signature="e#3911#3967#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Show.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-634">
+              <caret line="139" column="73" selection-start-line="139" selection-start-column="73" selection-end-line="139" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/views/Index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
-              <folding>
-                <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Hatching/Index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+            <state relative-caret-position="96">
+              <caret line="321" column="32" selection-start-line="321" selection-start-column="32" selection-end-line="321" selection-end-column="32" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -114,13 +103,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/ShowAll.vue">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Add.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="72" column="18" selection-start-line="65" selection-start-column="16" selection-end-line="72" selection-end-column="18" />
-              <folding>
-                <element signature="e#2046#2093#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="128" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Edit.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1001">
+              <caret line="196" column="64" selection-start-line="196" selection-start-column="64" selection-end-line="196" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -130,21 +125,57 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>incubator batches</find>
-      <find>batch</find>
-      <find>incubator</find>
       <find>images</find>
       <find>varun</find>
       <find>src</find>
       <find>incubatorBatchID</find>
+      <find>incubator</find>
+      <find>batches</find>
+      <find>batch</find>
+      <find>development-statuses</find>
+      <find>statuses</find>
+      <find>status</find>
+      <find>developmentStatus</find>
+      <find>development status</find>
+      <find>MPAfeD6o3ln</find>
+      <find>numberOfDamagedEggs</find>
+      <find>BdpUL8f1Yow</find>
+      <find>numberOfUnDevelopedEggs</find>
+      <find>RTRsM9EDDgI</find>
+      <find>numberOfDevelopedEggs</find>
+      <find>cohort</find>
+      <find>vaccine</find>
+      <find>cohorts</find>
+      <find>condi</find>
+      <find>laying</find>
     </findStrings>
     <replaceStrings>
       <replace>bird cohorts</replace>
-      <replace>cohort</replace>
       <replace>bird</replace>
+      <replace>cohorts</replace>
+      <replace>cohort</replace>
+      <replace>vaccine</replace>
+      <replace>vaccines</replace>
+      <replace>uHwvTB7ZG7P</replace>
+      <replace>numberOfBirds</replace>
+      <replace>YVup3DxLdRI</replace>
+      <replace>vaccinationDate</replace>
+      <replace>LPXCbDKz7Bv</replace>
+      <replace>vaccinationType</replace>
+      <replace>disease</replace>
+      <replace>laying</replace>
+      <replace>housing</replace>
+      <replace>condition</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/source/modules/bird-cohorts</dir>
       <dir>$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading</dir>
+      <dir>$PROJECT_DIR$/app/src/views/BirdCohorts</dir>
+      <dir>$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines</dir>
+      <dir>$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases</dir>
+      <dir>$PROJECT_DIR$/app/src/views/BirdCohorts/Layings</dir>
+      <dir>$PROJECT_DIR$/app/src/views/BirdHousing</dir>
+      <dir>$PROJECT_DIR$/app/src/views/BirdHousing/Conditions</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -153,28 +184,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/show-setter-loading.1.html" />
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/show-laying-off.html" />
-        <option value="$PROJECT_DIR$/source/index.html" />
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/show-diseases.html" />
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/show-entry.html" />
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/show-layings.html" />
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/show-vaccines.html" />
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/show.html" />
-        <option value="$PROJECT_DIR$/source/modules/incubator-batches/edit.html" />
-        <option value="$PROJECT_DIR$/source/modules/incubator-batches/show.html" />
-        <option value="$PROJECT_DIR$/source/modules/incubator-batches/show-development-status.html" />
-        <option value="$PROJECT_DIR$/source/modules/incubator-batches/show-hatchings.html" />
-        <option value="$PROJECT_DIR$/source/modules/incubator-batches/show-setter-loading.html" />
-        <option value="$PROJECT_DIR$/source/login.html" />
-        <option value="$PROJECT_DIR$/source/modules/bird-cohorts/add.html" />
         <option value="$PROJECT_DIR$/source/modules/incubator-batches/add.html" />
         <option value="$PROJECT_DIR$/source/modules/incubator-batches/index.html" />
         <option value="$PROJECT_DIR$/source/modules/bird-cohorts/index.html" />
         <option value="$PROJECT_DIR$/app/package.json" />
         <option value="$PROJECT_DIR$/app/src/views/LoginPage.vue" />
         <option value="$PROJECT_DIR$/app/src/components/LoginForm.vue" />
-        <option value="$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue" />
         <option value="$PROJECT_DIR$/app/src/views/NavBar.vue" />
         <option value="$PROJECT_DIR$/app/public/index.html" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/Index.vue" />
@@ -186,16 +201,40 @@
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading/Add.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/Edit.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading/Show.vue" />
-        <option value="$PROJECT_DIR$/app/src/main.js" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading/Index.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/Hatching/Index.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/Show.vue" />
-        <option value="$PROJECT_DIR$/app/src/router.js" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Add.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Edit.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/ShowAll.vue" />
         <option value="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue" />
         <option value="$PROJECT_DIR$/app/src/views/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Add.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases/Add.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Layings/Add.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/ShowAll.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Edit.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Entry/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/Add.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/ShowAll.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/Edit.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Show.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases/Edit.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Layings/Edit.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdCohorts/Layings/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/main.js" />
+        <option value="$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/Add.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/Edit.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/ShowAll.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Add.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Edit.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Index.vue" />
+        <option value="$PROJECT_DIR$/app/src/views/BirdHousing/Show.vue" />
+        <option value="$PROJECT_DIR$/app/src/router.js" />
       </list>
     </option>
   </component>
@@ -212,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,23 +274,58 @@
               <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Essentials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="BirdHousing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="BirdHousing" type="462c0819:PsiDirectoryNode" />
+              <item name="Conditions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PISFrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="PISFrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,16 +336,16 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/views/IncubatorBatches" />
-      <recent name="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus" />
-      <recent name="$PROJECT_DIR$/app/src/views" />
-      <recent name="$PROJECT_DIR$/app/public/plugins/images" />
-      <recent name="$PROJECT_DIR$/app/public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/views/IncubatorBatches" />
       <recent name="$PROJECT_DIR$/app/src/components/Authentication" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/views" />
+      <recent name="$PROJECT_DIR$/app/src/views/BirdCohorts" />
+      <recent name="$PROJECT_DIR$/app/src/views/IncubatorBatches" />
+      <recent name="$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus" />
+      <recent name="$PROJECT_DIR$/app/public/plugins/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,17 +388,21 @@
       <workItem from="1560698155721" duration="44179000" />
       <workItem from="1560761858501" duration="8045000" />
       <workItem from="1560861232894" duration="647000" />
-      <workItem from="1561054071859" duration="119000" />
+      <workItem from="1561054071859" duration="1338000" />
+      <workItem from="1561292709646" duration="1557000" />
+      <workItem from="1561689992560" duration="1312000" />
+      <workItem from="1562061211339" duration="16972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72599000" />
+    <option name="totallyTimeSpent" value="93778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.24943988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50247526" side_tool="true" weight="0.24981357" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -337,7 +414,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2801303" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22240803" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -348,196 +425,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/modules/bird-cohorts/edit.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/bird-cohorts/show-diseases.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/bird-cohorts/show-vaccines.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="120" selection-start-line="109" selection-start-column="23" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/bird-cohorts/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <marker date="1557233093726" expanded="true" signature="13117:13801" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/bird-cohorts/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="184" column="67" selection-start-line="184" selection-start-column="67" selection-end-line="184" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/bird-cohorts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="185" column="81" selection-start-line="185" selection-start-column="81" selection-end-line="185" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tailwind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/bootstrap/js/tab.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="391" column="6" lean-forward="true" selection-start-line="391" selection-start-column="6" selection-end-line="391" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="292" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/globals/index.js" />
-    <entry file="file://$PROJECT_DIR$/source/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" selection-start-line="27" selection-end-line="66" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/LoginPage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="177" column="53" lean-forward="true" selection-start-line="177" selection-start-column="53" selection-end-line="177" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/NavBar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/Authentication/LoginForm.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="215" column="67" lean-forward="true" selection-start-line="215" selection-start-column="67" selection-end-line="215" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Add.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="176" column="39" selection-start-line="176" selection-start-column="39" selection-end-line="176" selection-end-column="39" />
-          <folding>
-            <element signature="e#7656#7694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/authResource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/Authentication/LogoutButton.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/Essentials/NavBar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading/Add.vue" />
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/SetterLoading/ShowAll.vue" />
     <entry file="file://$PROJECT_DIR$/source/modules/incubator-batches/show-setter-loading.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -636,37 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/Hatching/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
           <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,13 +542,245 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/views/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/IncubatorBatches/DevelopmentStatus/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Entry/Show.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2796" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases/ShowAll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/NavBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="128" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="209" column="65" selection-start-line="209" selection-start-column="65" selection-end-line="209" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Entry/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="158" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/ShowAll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="135" column="47" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Vaccines/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="195" column="69" selection-start-line="195" selection-start-column="69" selection-end-line="195" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/ShowAll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="61" column="112" selection-start-line="61" selection-start-column="112" selection-end-line="61" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="137" column="121" selection-start-line="137" selection-start-column="121" selection-end-line="137" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Diseases/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="135" column="121" selection-start-line="135" selection-start-column="121" selection-end-line="135" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Layings/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="146" column="46" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Layings/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="130" column="121" selection-start-line="130" selection-start-column="121" selection-end-line="130" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Entry/Show.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Layings/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/Essentials/NavBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/Essentials/SideBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="154" selection-start-line="17" selection-start-column="154" selection-end-line="17" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/ShowAll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="139" column="20" lean-forward="true" selection-start-line="139" selection-start-column="20" selection-end-line="141" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Conditions/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="127" column="18" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-934">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="128" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1001">
+          <caret line="196" column="64" selection-start-line="196" selection-start-column="64" selection-end-line="196" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <folding>
+            <element signature="e#3911#3967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdCohorts/Show.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="139" column="73" selection-start-line="139" selection-start-column="73" selection-end-line="139" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/views/BirdHousing/Show.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="321" column="32" selection-start-line="321" selection-start-column="32" selection-end-line="321" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
