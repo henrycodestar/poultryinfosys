@@ -15,8 +15,8 @@
                     <li class="active"><router-link to="/" class="waves-effect"><i class="mdi mdi-view-dashboard fa-fw"></i> <span class="hide-menu">Dashboard</span></router-link></li>
                     <li><router-link to="/incubator-batches" class="waves-effect"><i class="mdi mdi-book-open-page-variant fa-fw"></i> <span class="hide-menu">Incubator Batches</span></router-link></li>
                     <li><router-link to="/bird-cohorts" class="waves-effect"><i class="mdi mdi-chart-pie fa-fw"></i> <span class="hide-menu">Bird Cohorts</span></router-link></li>
-                    <li><router-link href="/poultry-sales" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">Poultry Sales</span></router-link></li>
                     <li><router-link to="/bird-housing" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">Bird Housing</span></router-link></li>
+                    <li><router-link to="/poultry-sales" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">Poultry Sales</span></router-link></li>
                     <li><router-link href="#" class="waves-effect"><i class="mdi mdi-account-multiple fa-fw"></i> <span class="hide-menu">User Management</span></router-link></li>
                     <li><router-link href="#" class="waves-effect"><i class="mdi mdi-wallet fa-fw"></i> <span class="hide-menu">App Settings</span></router-link></li>
                     <li><router-link href="#" class="waves-effect"><i class="mdi mdi-help-circle fa-fw"></i> <span class="hide-menu">Help</span></router-link></li>

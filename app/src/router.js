@@ -32,6 +32,9 @@ import BirdHousingEdit from "./views/BirdHousing/Edit";
 import BirdHousingConditions from "./views/BirdHousing/Conditions/Index";
 import BirdHousingConditionsAdd from "./views/BirdHousing/Conditions/Add";
 import BirdHousingConditionsEdit from "./views/BirdHousing/Conditions/Edit";
+import PoultrySalesHome from "./views/PoultrySales/Index";
+import PoultrySalesAdd from "./views/PoultrySales/Add";
+import PoultrySalesEdit from "./views/PoultrySales/Edit";
 
 Vue.use(Router);
 
@@ -326,7 +329,35 @@ const router =  new Router({
             meta: {
                 requiresAuth: true
             }
+        }
+
+        
+        ,
+        {
+            path: '/poultry-sales',
+            name: 'PoultrySalesHome',
+            component: PoultrySalesHome,
+            meta: {
+                requiresAuth: true
+            }
         },
+        {
+            path: '/poultry-sales/add',
+            name: 'PoultrySalesAdd',
+            component: PoultrySalesAdd,
+            meta: {
+                requiresAuth: true
+            }
+        },
+        {
+            path: '/poultry-sales/:poultrySalesID/edit',
+            name: 'PoultrySalesEdit',
+            component: PoultrySalesEdit,
+            props : true,
+            meta: {
+                requiresAuth: true
+            }
+        }
     ]
 });
 

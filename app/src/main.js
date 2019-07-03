@@ -41,12 +41,13 @@ Vue.mixin({
                 incubatorBatches : "ieL3KoZa9a3",
                 birdCohorts : "j6gDtw5XAzB",
                 birdHousing : "v7hAN6QcXgS",
-                birdSales : "SCvoHavteGk"
+                poultrySales : "SCvoHavteGk"
             },
             optionSets : {
                 birds : "pW1TuVBd2xw",
                 incubators : "pW1TuVBd2xw",
-                vaccines : "yF7KsLs1Ewq"
+                vaccines : "yF7KsLs1Ewq",
+                poultryProducts : "ZHjnPlLzWmq"
             }
         }
     }
